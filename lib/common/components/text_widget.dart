@@ -28,7 +28,7 @@ class TextWidget extends StatelessWidget {
 
       if (fontSize == AvailableFontSizes.big) return 18;
 
-      return 24;
+      return 16;
     }
 
     return Container(

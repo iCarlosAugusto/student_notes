@@ -64,8 +64,6 @@ class _TextfieldWidgetState extends State<TextfieldWidget> {
         maxLength: widget.maxLength,
         obscureText: widget.isPasswordField ? isObscureText : false,
         decoration: InputDecoration(
-          filled: true,
-          fillColor: Colors.white,
           suffixIcon: widget.isPasswordField 
             ? Visibility(
               visible: isObscureText,

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:go_router/go_router.dart';
 import 'package:stududent_book/common/components/card_consult_info.dart';
 import 'package:stududent_book/common/components/text_widget.dart';
 
@@ -20,7 +21,8 @@ class HomeView extends StatelessWidget {
               title: const TextWidget('Minhas matérias', isFontWeight: true),
               actions: [
                 IconButton(
-                  icon: const Icon(Icons.add_rounded), onPressed: () {}
+                  icon: const Icon(Icons.add_rounded),
+                  onPressed: () => context.push('/subjectCreation')
                 )
               ],
             ),
